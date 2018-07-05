@@ -209,7 +209,7 @@ def L_model_forward_test_case_2hidden():
 def print_grads(grads):
     print ("dW1 = "+ str(grads["dW1"]))
     print ("db1 = "+ str(grads["db1"]))
-    print ("dA1 = "+ str(grads["dA2"])) # this is done on purpose to be consistent with lecture where we normally start with A0
+    print ("dA1 = "+ str(grads["dA1"])) # this is done on purpose to be consistent with lecture where we normally start with A0
                                         # in this implementation we started with A1, hence we bump it up by 1. 
     
     
